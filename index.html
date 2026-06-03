@@ -1,14 +1,1139 @@
-﻿<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="https://horizons-cdn.hostinger.com/70b0f650-7121-4c06-bf1e-6ef244d47b29/139772cae53837444b0b884f3b5ac1b7.png" />
-    <meta name="generator" content="Hostinger Horizons" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>O Poder do Intestino</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '922632677333131');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=922632677333131&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+  <title>O Poder do Intestino | 21 Dias para Desinflamar</title>
+  <meta name="description" content="Descubra como regular seu intestino de forma natural em apenas 21 dias. Diga adeus ao inchaço, cansaço e desconforto intestinal com nosso plano completo." />
+  <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/d/1uDQRnTrYbRh9qCh3luMNmVJsAwpbhwIN" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5e6d3;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    /* Colors */
+    :root {
+      --green: #1a4d3e;
+      --green-dark: #133b2f;
+      --cream: #f5e6d3;
+      --gold: #d4af37;
+    }
+
+    /* Sticky CTA */
+    #sticky-cta {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 50;
+      background: rgba(26, 77, 62, 0.92);
+      backdrop-filter: blur(8px);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.25);
+      transform: translateY(100%);
+      transition: transform 0.35s ease;
+    }
+    #sticky-cta.visible { transform: translateY(0); }
+    #sticky-cta .sticky-text { display: none; }
+    @media (min-width: 640px) {
+      #sticky-cta .sticky-text { display: block; }
+    }
+    #sticky-cta .sticky-text p:first-child { font-weight: 600; color: var(--gold); font-size: 15px; }
+    #sticky-cta .sticky-text p:last-child { font-size: 13px; color: rgba(245,230,211,0.8); }
+
+    /* CTA Button */
+    .btn-cta {
+      display: inline-block;
+      background: linear-gradient(135deg, #d4af37, #b8941f);
+      color: #1a1a1a;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      padding: 18px 36px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      letter-spacing: 0.3px;
+      box-shadow: 0 8px 25px rgba(212,175,55,0.45);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 35px rgba(212,175,55,0.55);
+    }
+    .btn-cta:active { transform: translateY(0); }
+    .btn-cta-sm {
+      font-size: 14px;
+      padding: 14px 28px;
+    }
+
+    /* Section common */
+    section { padding: 80px 16px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .container-wide { max-width: 1100px; margin: 0 auto; }
+
+    /* Section headings */
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 4vw, 40px);
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .section-title.green { color: var(--green); }
+    .section-title.cream { color: var(--cream); }
+    .divider {
+      width: 80px; height: 3px;
+      background: var(--gold);
+      border-radius: 4px;
+      margin: 0 auto 48px;
+    }
+
+    /* ===================== HERO ===================== */
+    #hero {
+      background-color: var(--green);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 16px;
+    }
+    #hero .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      #hero .inner { grid-template-columns: 1fr 1fr; }
+    }
+    .hero-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 50px;
+      background: rgba(212,175,55,0.15);
+      border: 1px solid rgba(212,175,55,0.5);
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    #hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 4.5vw, 54px);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--cream);
+      margin-bottom: 20px;
+    }
+    #hero h1 em {
+      color: var(--gold);
+      font-style: italic;
+    }
+    #hero p.subtitle {
+      font-size: clamp(17px, 2.5vw, 22px);
+      color: rgba(245,230,211,0.9);
+      font-weight: 300;
+      margin-bottom: 36px;
+      line-height: 1.6;
+    }
+    #hero .mockup-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--green);
+    }
+    #hero .mockup-wrap img {
+      max-width: 380px;
+      width: 100%;
+      animation: float 3.5s ease-in-out infinite;
+      background-color: var(--green);
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    /* ===================== SYMPTOMS ===================== */
+    #symptoms { background: var(--cream); }
+    .symptom-card {
+      background: rgba(255,255,255,0.6);
+      border: 1px solid rgba(26,77,62,0.1);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    .symptom-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(26,77,62,0.08);
+      font-size: 16px;
+      color: #333;
+      line-height: 1.5;
+    }
+    .symptom-item:last-child { border-bottom: none; }
+    .symptom-item .dot {
+      width: 10px; height: 10px;
+      background: var(--gold);
+      border-radius: 50%;
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+
+    /* ===================== TRUTH ===================== */
+    #truth {
+      background: var(--green);
+      color: var(--cream);
+      padding: 80px 16px;
+    }
+    #truth .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      #truth .inner { grid-template-columns: 1fr 1fr; }
+    }
+    .truth-img-wrap {
+      position: relative;
+    }
+    .truth-img-wrap::before {
+      content: '';
+      position: absolute;
+      inset: -12px;
+      border: 2px solid rgba(212,175,55,0.3);
+      border-radius: 16px;
+      transform: translate(12px, 12px);
+    }
+    .truth-img-wrap img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+      position: relative;
+      z-index: 1;
+    }
+    #truth .text-block p {
+      font-size: 17px;
+      color: rgba(245,230,211,0.88);
+      font-weight: 300;
+      line-height: 1.75;
+      margin-bottom: 20px;
+    }
+    #truth .text-block strong { color: var(--gold); font-weight: 500; }
+
+    /* ===================== DIETS ===================== */
+    #diets { background: var(--cream); }
+    .diets-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-top: 48px;
+    }
+    @media (min-width: 640px) {
+      .diets-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .diet-card {
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+    .diet-card.bad {
+      background: white;
+      border-top: 4px solid #ef4444;
+    }
+    .diet-card.good {
+      background: var(--green);
+      border-top: 4px solid var(--gold);
+    }
+    .diet-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    .diet-card.bad h3 { color: var(--green); }
+    .diet-card.good h3 { color: var(--gold); }
+    .diet-list { list-style: none; }
+    .diet-list li {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 14px;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .diet-card.bad .diet-list li { color: #555; }
+    .diet-card.good .diet-list li { color: rgba(245,230,211,0.9); }
+    .diet-list .icon-bad { color: #ef4444; font-weight: bold; }
+    .diet-list .icon-good { color: var(--gold); font-weight: bold; }
+
+    /* ===================== 21-DAY PLAN ===================== */
+    #plan { background: var(--green); padding: 80px 16px; }
+    .plan-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-top: 48px;
+    }
+    @media (min-width: 640px) {
+      .plan-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    .plan-card {
+      background: var(--green-dark);
+      border: 1px solid rgba(212,175,55,0.2);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .plan-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 40px rgba(212,175,55,0.15);
+    }
+    .plan-icon {
+      width: 64px; height: 64px;
+      background: rgba(212,175,55,0.1);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 24px;
+      font-size: 28px;
+    }
+    .plan-card .week-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .plan-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .plan-card p {
+      font-size: 14px;
+      color: rgba(245,230,211,0.7);
+      line-height: 1.65;
+      font-weight: 300;
+    }
+
+    /* ===================== PLANNER ===================== */
+    #planner { background: var(--cream); }
+    #planner > .container > p {
+      font-size: 17px;
+      color: rgba(26,77,62,0.8);
+      margin-bottom: 32px;
+      line-height: 1.7;
+    }
+    .planner-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+    @media (min-width: 480px) { .planner-grid { grid-template-columns: repeat(4, 1fr); } }
+    .planner-item {
+      background: white;
+      border-radius: 12px;
+      padding: 20px 14px;
+      text-align: center;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      border: 1px solid transparent;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .planner-item:hover {
+      border-color: rgba(212,175,55,0.4);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .planner-item .emoji { font-size: 30px; display: block; margin-bottom: 10px; }
+    .planner-item h4 { font-size: 13px; font-weight: 600; color: var(--green); margin-bottom: 4px; }
+    .planner-item p { font-size: 11px; color: rgba(26,77,62,0.6); }
+
+    /* ===================== RESULTS ===================== */
+    #results {
+      background: var(--green);
+      padding: 90px 16px;
+      position: relative;
+      overflow: hidden;
+    }
+    #results .bg-overlay {
+      position: absolute;
+      inset: 0;
+      opacity: 0.08;
+      background-image: url('https://images.unsplash.com/photo-1628971021877-37187fde57f4?w=1200');
+      background-size: cover;
+      background-position: center;
+    }
+    #results .inner { position: relative; z-index: 1; }
+    #results h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 4vw, 44px);
+      color: var(--cream);
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .results-box {
+      background: rgba(19,59,47,0.82);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(212,175,55,0.3);
+      border-radius: 24px;
+      padding: 40px 48px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .result-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(212,175,55,0.1);
+      font-size: 16px;
+      color: rgba(245,230,211,0.9);
+      line-height: 1.5;
+    }
+    .result-item:last-child { border-bottom: none; }
+    .check { color: var(--gold); font-size: 20px; margin-top: 1px; flex-shrink: 0; }
+    .results-disclaimer {
+      text-align: center;
+      font-size: 12px;
+      color: rgba(212,175,55,0.7);
+      font-style: italic;
+      font-weight: 300;
+      margin-top: 24px;
+    }
+
+    /* ===================== FOR WHOM ===================== */
+    #forwhom { background: var(--cream); }
+    .forwhom-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-top: 48px;
+    }
+    @media (min-width: 640px) {
+      .forwhom-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .forwhom-card {
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+    .forwhom-card.yes {
+      background: var(--green);
+      border: 1px solid rgba(212,175,55,0.3);
+      position: relative; overflow: hidden;
+    }
+    .forwhom-card.yes::before {
+      content: '';
+      position: absolute; top: -40px; right: -40px;
+      width: 120px; height: 120px;
+      background: var(--gold);
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.2;
+    }
+    .forwhom-card.no { background: white; }
+    .forwhom-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 28px;
+    }
+    .forwhom-card.yes h3 { color: var(--gold); }
+    .forwhom-card.no h3 { color: var(--green); }
+    .forwhom-list { list-style: none; }
+    .forwhom-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 18px;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    .forwhom-card.yes .forwhom-list li { color: rgba(245,230,211,0.9); }
+    .forwhom-card.no .forwhom-list li { color: rgba(26,77,62,0.7); }
+    .forwhom-card.yes .icon-fw { color: var(--gold); font-weight: bold; font-size: 18px; margin-top: 1px; }
+    .forwhom-card.no .icon-fw { color: var(--green); font-weight: bold; font-size: 18px; margin-top: 1px; }
+
+    /* ===================== PRICING ===================== */
+    #pricing { background: var(--green); padding: 80px 16px; }
+    .pricing-card {
+      background: var(--cream);
+      border-radius: 24px;
+      padding: 48px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .pricing-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      color: var(--green);
+      margin-bottom: 24px;
+    }
+    .product-items {
+      list-style: none;
+      margin-bottom: 32px;
+      text-align: left;
+    }
+    .product-items li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(26,77,62,0.1);
+      font-size: 15px;
+      color: var(--green);
+    }
+    .product-items li:last-child { border-bottom: none; }
+    .product-items .check-green { color: var(--green); font-size: 18px; }
+    .price-block { margin-bottom: 28px; }
+    .price-original {
+      font-size: 18px;
+      color: #888;
+      text-decoration: line-through;
+      margin-bottom: 4px;
+    }
+    .price-current {
+      font-family: 'Playfair Display', serif;
+      font-size: 52px;
+      font-weight: 700;
+      color: var(--green);
+      line-height: 1;
+    }
+    .price-current span { font-size: 22px; vertical-align: super; }
+    .price-label {
+      font-size: 14px;
+      color: rgba(26,77,62,0.6);
+      margin-top: 6px;
+    }
+    .guarantee-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: rgba(26,77,62,0.08);
+      border: 1px solid rgba(26,77,62,0.15);
+      border-radius: 12px;
+      padding: 14px 20px;
+      margin-top: 24px;
+      font-size: 13px;
+      color: rgba(26,77,62,0.75);
+    }
+    .guarantee-badge .shield { font-size: 22px; }
+
+    /* ===================== FAQ ===================== */
+    #faq { background: var(--cream); }
+    .faq-list { margin-top: 16px; }
+    .faq-item {
+      border: 1px solid rgba(26,77,62,0.12);
+      border-radius: 14px;
+      margin-bottom: 14px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 22px 24px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--green);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .faq-question .arrow {
+      font-size: 20px;
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+      color: var(--gold);
+    }
+    .faq-item.open .faq-question .arrow { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+      padding: 0 24px;
+      font-size: 15px;
+      color: #555;
+      line-height: 1.7;
+      font-weight: 300;
+    }
+    .faq-item.open .faq-answer {
+      max-height: 300px;
+      padding: 0 24px 22px;
+    }
+
+    /* ===================== FINAL CTA ===================== */
+    #final-cta {
+      background: linear-gradient(135deg, var(--green), var(--green-dark));
+      padding: 100px 16px;
+      text-align: center;
+    }
+    #final-cta h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 4vw, 48px);
+      color: var(--cream);
+      max-width: 700px;
+      margin: 0 auto 16px;
+      line-height: 1.25;
+    }
+    #final-cta p {
+      font-size: 18px;
+      color: rgba(245,230,211,0.8);
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+
+    /* ===================== FOOTER ===================== */
+    footer {
+      background: #0e2a22;
+      /* padding-bottom alto p/ a barra fixa do CTA não cobrir o disclaimer */
+      padding: 36px 16px 140px;
+      text-align: center;
+      font-size: 13px;
+      color: rgba(245,230,211,0.55);
+    }
+    footer .footer-inner {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    footer .disclaimer {
+      font-size: 12px;
+      line-height: 1.7;
+      color: rgba(245,230,211,0.45);
+      margin-top: 14px;
+    }
+    footer .copyright {
+      font-size: 13px;
+      color: rgba(245,230,211,0.6);
+    }
+
+    /* Animations */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+<!-- STICKY CTA -->
+<div id="sticky-cta">
+  <div class="sticky-text">
+    <p>21 Dias para um Intestino Desinflamado</p>
+    <p>Por apenas R$ 27,90</p>
+  </div>
+  <a href="https://chk.eduzz.com/3bjf2ukn" target="_blank" class="btn-cta btn-cta-sm">Começar Agora →</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="inner">
+    <div>
+      <span class="hero-badge">O Poder do Intestino</span>
+      <h1>
+        Seu exame diz <em>"normal"</em>. Seu corpo diz outra coisa.
+      </h1>
+      <p class="subtitle">
+        Um plano prático de 21 dias para cuidar do seu intestino de forma natural e construir hábitos que duram
+      </p>
+      <a href="https://chk.eduzz.com/3bjf2ukn" target="_blank" class="btn-cta">
+        Quero começar meus 21 dias →
+      </a>
+    </div>
+    <div class="mockup-wrap">
+      <img
+        id="mockup-img"
+        src="mockup_ebook.png"
+        alt="E-book 21 Dias para um Intestino Desinflamado"
+        loading="eager"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- SYMPTOMS -->
+<section id="symptoms">
+  <div class="container">
+    <h2 class="section-title green">Isso parece com você?</h2>
+    <div class="divider"></div>
+    <div class="symptom-card fade-in">
+      <div class="symptom-item">
+        <span class="dot"></span>
+        <span>Acordar inchada mesmo sem ter comido nada de "errado" no dia anterior</span>
+      </div>
+      <div class="symptom-item">
+        <span class="dot"></span>
+        <span>Sentir que o intestino só funciona com a ajuda de laxantes ou café forte pela manhã</span>
+      </div>
+      <div class="symptom-item">
+        <span class="dot"></span>
+        <span>Viver cansada mesmo dormindo bem, sem explicação aparente</span>
+      </div>
+      <div class="symptom-item">
+        <span class="dot"></span>
+        <span>Oscilações de humor sem motivo aparente ao longo do dia</span>
+      </div>
+      <div class="symptom-item">
+        <span class="dot"></span>
+        <span>Já ter feito vários exames que deram "normais", mas com a sensação de que algo poderia estar melhor</span>
+      </div>
+      <div class="symptom-item">
+        <span class="dot"></span>
+        <span>Barriga frequentemente desconfortável, com gases, queimação ou aquela sensação de peso</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUTH ABOUT GUT -->
+<section id="truth">
+  <div class="inner">
+    <div class="truth-img-wrap fade-in">
+      <img
+        src="https://lh3.googleusercontent.com/d/1iN36ZZevJt1SXH7nXZYvUDh08LlqKe6A"
+        alt="Saúde intestinal"
+        loading="lazy"
+      />
+    </div>
+    <div>
+      <h2 class="section-title cream" style="text-align:left;">O que ninguém te contou sobre o seu intestino</h2>
+      <div class="divider" style="margin-left:0;"></div>
+      <div class="text-block fade-in">
+        <p><strong>Boa parte da sua imunidade vive no intestino.</strong> Quando o intestino não está em equilíbrio, o corpo todo tende a sentir — da disposição à frequência de pequenos incômodos.</p>
+        <p><strong>O eixo intestino-cérebro é real.</strong> O intestino participa da produção de serotonina e tem ligação direta com o cérebro — por isso o bem-estar intestinal costuma refletir no humor e na disposição.</p>
+        <p><strong>Nem tudo aparece nos exames de rotina.</strong> Desconfortos persistentes nem sempre são captados em exames padrões, mas afetam o seu dia a dia.</p>
+        <p><strong>Os sinais vão muito além da barriga.</strong> Cansaço, pele opaca, sono irregular e disposição em baixa — muitas vezes estão ligados ao equilíbrio do intestino.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY DIETS DON'T WORK -->
+<section id="diets">
+  <div class="container">
+    <h2 class="section-title green">Por que mais uma dieta não resolve</h2>
+    <div class="divider"></div>
+    <div class="diets-grid">
+      <div class="diet-card bad fade-in">
+        <h3>Dietas Restritivas</h3>
+        <ul class="diet-list">
+          <li><span class="icon-bad">✗</span> Cortam grupos alimentares inteiros</li>
+          <li><span class="icon-bad">✗</span> Criam relação de culpa com a comida</li>
+          <li><span class="icon-bad">✗</span> Não consideram sua individualidade</li>
+          <li><span class="icon-bad">✗</span> São insustentáveis a longo prazo</li>
+          <li><span class="icon-bad">✗</span> Ignoram o emocional e o estresse</li>
+        </ul>
+      </div>
+      <div class="diet-card good fade-in">
+        <h3>Nossa Abordagem</h3>
+        <ul class="diet-list">
+          <li><span class="icon-good">✓</span> Foca em reduzir inflamação</li>
+          <li><span class="icon-good">✓</span> Nutre a microbiota intestinal</li>
+          <li><span class="icon-good">✓</span> Respeita suas preferências</li>
+          <li><span class="icon-good">✓</span> Cria hábitos sustentáveis</li>
+          <li><span class="icon-good">✓</span> Integra corpo, mente e emoções</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 21-DAY PLAN -->
+<section id="plan">
+  <div class="container-wide">
+    <h2 class="section-title cream">Como funciona o plano de 21 dias</h2>
+    <div class="divider"></div>
+    <div class="plan-grid">
+      <div class="plan-card fade-in">
+        <div class="plan-icon">🛡️</div>
+        <p class="week-label">Semana 1</p>
+        <h3>Reduzir os Agressores</h3>
+        <p>Identificar e minimizar alimentos e hábitos que causam inflamação intestinal</p>
+      </div>
+      <div class="plan-card fade-in">
+        <div class="plan-icon">❤️</div>
+        <p class="week-label">Semana 2</p>
+        <h3>Nutrir a Microbiota</h3>
+        <p>Introduzir alimentos e práticas que alimentam as bactérias benéficas do intestino</p>
+      </div>
+      <div class="plan-card fade-in">
+        <div class="plan-icon">✨</div>
+        <p class="week-label">Semana 3</p>
+        <h3>Regular o Eixo Intestino-Cérebro</h3>
+        <p>Estabelecer rotinas que harmonizam a comunicação entre intestino e cérebro</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANNER -->
+<section id="planner">
+  <div class="container">
+    <h2 class="section-title green">Planner dos 21 dias</h2>
+    <div class="divider"></div>
+    <p>Acompanhe sua jornada dia a dia com nosso planner exclusivo que te ajuda a monitorar:</p>
+    <div class="planner-grid">
+      <div class="planner-item fade-in">
+        <span class="emoji">🍽️</span>
+        <h4>Alimentação</h4>
+        <p>Refeições e padrões</p>
+      </div>
+      <div class="planner-item fade-in">
+        <span class="emoji">💧</span>
+        <h4>Hidratação</h4>
+        <p>Ingestão de água</p>
+      </div>
+      <div class="planner-item fade-in">
+        <span class="emoji">🚽</span>
+        <h4>Evacuação</h4>
+        <p>Regularidade</p>
+      </div>
+      <div class="planner-item fade-in">
+        <span class="emoji">📊</span>
+        <h4>Sintomas</h4>
+        <p>Inchaço e desconforto</p>
+      </div>
+      <div class="planner-item fade-in">
+        <span class="emoji">⚡</span>
+        <h4>Energia</h4>
+        <p>Níveis de disposição</p>
+      </div>
+      <div class="planner-item fade-in">
+        <span class="emoji">🧘</span>
+        <h4>Autocuidado</h4>
+        <p>Relaxamento e sono</p>
+      </div>
+      <div class="planner-item fade-in">
+        <span class="emoji">📝</span>
+        <h4>Reflexões</h4>
+        <p>Descobertas diárias</p>
+      </div>
+      <div class="planner-item fade-in">
+        <span class="emoji">🕐</span>
+        <h4>Rotina</h4>
+        <p>Horários regulares</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="bg-overlay"></div>
+  <div class="container inner">
+    <h2>E se, em 21 dias, você passasse a ter:</h2>
+    <div class="divider"></div>
+    <div class="results-box fade-in">
+      <div class="result-item">
+        <span class="check">✓</span>
+        <span>Redução visível do inchaço e sensação de leveza abdominal</span>
+      </div>
+      <div class="result-item">
+        <span class="check">✓</span>
+        <span>Regularização do trânsito intestinal de forma natural</span>
+      </div>
+      <div class="result-item">
+        <span class="check">✓</span>
+        <span>Aumento de energia e disposição ao longo do dia</span>
+      </div>
+      <div class="result-item">
+        <span class="check">✓</span>
+        <span>Mais leveza no dia a dia e sensação de bem-estar</span>
+      </div>
+      <div class="result-item">
+        <span class="check">✓</span>
+        <span>Pele mais saudável e radiante</span>
+      </div>
+      <div class="result-item">
+        <span class="check">✓</span>
+        <span>Sono mais reparador e despertar mais revigorado</span>
+      </div>
+    </div>
+    <p class="results-disclaimer">*Resultados podem variar de pessoa para pessoa. Este não é um programa médico e não substitui acompanhamento profissional.</p>
+  </div>
+</section>
+
+<!-- FOR WHOM -->
+<section id="forwhom">
+  <div class="container">
+    <h2 class="section-title green">Para quem é este e-book</h2>
+    <div class="divider"></div>
+    <div class="forwhom-grid">
+      <div class="forwhom-card yes fade-in">
+        <h3>É para você se...</h3>
+        <ul class="forwhom-list">
+          <li>
+            <span class="icon-fw">✓</span>
+            <span>Você está cansada de viver refém do intestino preso</span>
+          </li>
+          <li>
+            <span class="icon-fw">✓</span>
+            <span>Quer entender seu corpo ao invés de apenas seguir dietas prontas</span>
+          </li>
+          <li>
+            <span class="icon-fw">✓</span>
+            <span>Busca uma abordagem natural e sustentável</span>
+          </li>
+          <li>
+            <span class="icon-fw">✓</span>
+            <span>Quer se sentir leve, disposta e com energia de novo</span>
+          </li>
+          <li>
+            <span class="icon-fw">✓</span>
+            <span>Está disposta a dedicar 21 dias para transformar sua saúde</span>
+          </li>
+        </ul>
+      </div>
+      <div class="forwhom-card no fade-in">
+        <h3>Não é para você se...</h3>
+        <ul class="forwhom-list">
+          <li>
+            <span class="icon-fw">✗</span>
+            <span>Você busca uma solução mágica instantânea</span>
+          </li>
+          <li>
+            <span class="icon-fw">✗</span>
+            <span>Não está disposta a fazer mudanças no estilo de vida</span>
+          </li>
+          <li>
+            <span class="icon-fw">✗</span>
+            <span>Prefere apenas tomar remédios sem entender a causa</span>
+          </li>
+          <li>
+            <span class="icon-fw">✗</span>
+            <span>Quer uma dieta super restritiva para perder peso rápido</span>
+          </li>
+          <li>
+            <span class="icon-fw">✗</span>
+            <span>Não tem interesse em se conectar com seu corpo</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="container">
+    <h2 class="section-title cream">O que você recebe ao comprar</h2>
+    <div class="divider"></div>
+    <div class="pricing-card fade-in">
+      <h3>21 Dias para um Intestino Desinflamado</h3>
+      <ul class="product-items">
+        <li>
+          <span class="check-green">✓</span>
+          <span>E-book completo "21 Dias para um Intestino Desinflamado" (PDF)</span>
+        </li>
+        <li>
+          <span class="check-green">✓</span>
+          <span>Planner dos 21 dias para acompanhamento diário</span>
+        </li>
+        <li>
+          <span class="check-green">✓</span>
+          <span>Acesso imediato após a compra</span>
+        </li>
+        <li>
+          <span class="check-green">✓</span>
+          <span>Suporte por e-mail para dúvidas</span>
+        </li>
+      </ul>
+      <div class="price-block">
+        <p class="price-original">De R$ 97,00</p>
+        <p class="price-current"><span>R$</span> 27,90</p>
+        <p class="price-label">Pagamento único · Acesso imediato</p>
+      </div>
+      <a href="https://chk.eduzz.com/3bjf2ukn" target="_blank" class="btn-cta" style="width:100%; display:block;">
+        Quero começar meus 21 dias →
+      </a>
+      <div class="guarantee-badge">
+        <span class="shield">🔒</span>
+        <span>Compra segura · Pagamento processado pela Eduzz</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container" style="max-width:700px;">
+    <h2 class="section-title green">Perguntas frequentes</h2>
+    <div class="divider"></div>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Em quanto tempo vou ver resultados?
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Muitas pessoas relatam sentir diferença já na primeira semana, especialmente na redução do inchaço e melhora no trânsito intestinal. Os resultados mais profundos, como melhora de energia e humor, costumam aparecer após as 3 semanas completas do protocolo.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Preciso seguir alguma dieta específica?
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Não! O plano não é uma dieta restritiva. Você vai aprender a identificar o que funciona PARA VOCÊ, respeitando suas preferências e rotina. O foco é em escolhas conscientes e sustentáveis, não em privação.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Posso fazer mesmo tomando remédios?
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Sim, o plano é complementar e não substitui tratamentos médicos. Porém, é sempre importante conversar com seu médico sobre mudanças na alimentação, especialmente se você toma medicações regulares.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Tenho pouco tempo, consigo aplicar?
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Sim! O plano foi pensado para ser prático e adaptável à rotina corrida. As ações são simples e podem ser incorporadas gradualmente ao seu dia a dia, sem exigir horas de preparo.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Como recebo o e-book e o planner?
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+          Após a confirmação do pagamento, você recebe um e-mail imediato com o link para download do e-book em PDF e do planner. Tudo 100% digital para você começar na mesma hora.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="final-cta">
+  <h2>Chegou a hora de cuidar de verdade do seu intestino</h2>
+  <p>21 dias. Uma decisão. Uma vida completamente diferente.</p>
+  <a href="https://chk.eduzz.com/3bjf2ukn" target="_blank" class="btn-cta">
+    Quero começar meus 21 dias — R$ 27,90 →
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <p class="copyright">© 2025 O Poder do Intestino · Katiane Nogueira · Todos os direitos reservados</p>
+    <p class="disclaimer">
+      <strong>Aviso legal:</strong> Este e-book tem caráter exclusivamente informativo e educativo e não constitui aconselhamento médico, nutricional ou diagnóstico. O conteúdo não substitui a consulta, o diagnóstico ou o tratamento de um profissional de saúde qualificado. Consulte sempre seu médico ou nutricionista antes de iniciar qualquer mudança na alimentação, rotina ou estilo de vida, especialmente se você faz uso de medicamentos ou possui alguma condição de saúde. Os resultados podem variar de pessoa para pessoa e não há garantia de resultados específicos. Este produto não promete cura, perda de peso ou tratamento de qualquer doença.
+    </p>
+    <p class="disclaimer">
+      Pagamento processado de forma segura pela Eduzz. Este site não é parte do Facebook/Meta nem do Google, e não é endossado por essas plataformas.
+    </p>
+  </div>
+</footer>
+
+<script>
+  // Sticky CTA on scroll
+  const stickyCta = document.getElementById('sticky-cta');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 800) {
+      stickyCta.classList.add('visible');
+    } else {
+      stickyCta.classList.remove('visible');
+    }
+  });
+
+  // FAQ accordion
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  // Fade-in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Meta Pixel — dispara InitiateCheckout ao clicar em qualquer CTA que leva ao Eduzz
+  document.querySelectorAll('a.btn-cta').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (typeof fbq === 'function') {
+        fbq('track', 'InitiateCheckout', {
+          content_name: '21 Dias para um Intestino Desinflamado',
+          value: 27.90,
+          currency: 'BRL'
+        });
+      }
+    });
+  });
+</script>
+
+</body>
 </html>
