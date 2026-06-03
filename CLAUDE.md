@@ -11,3 +11,10 @@ Push na `master` -> GitHub Actions -> SSH na VPS -> `intestino-deploy.sh` -> env
 
 ## Marketing
 Meta Pixel 922632677333131 (PageView + InitiateCheckout). Checkout Eduzz. Copy ja revisada p/ politicas Meta/Google (sem promessa de resultado/depoimentos). O texto DENTRO da imagem do mockup nao e editavel via codigo.
+
+
+## Manutencao deste contexto (REGRA PERMANENTE para a IA)
+Ao terminar qualquer trabalho relevante neste projeto, ATUALIZE este CLAUDE.md com o que mudou
+(estado atual, decisoes, gotchas) e de commit/push. Tambem atualize a memoria local se houver.
+NAO depender da memoria do usuario para lembrar disso — e responsabilidade da IA fazer ao concluir.
+Isso mantem o contexto correto em QUALQUER dispositivo e evita retrabalho/andar em circulos.
