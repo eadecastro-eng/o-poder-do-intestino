@@ -18,3 +18,6 @@ Ao terminar qualquer trabalho relevante neste projeto, ATUALIZE este CLAUDE.md c
 (estado atual, decisoes, gotchas) e de commit/push. Tambem atualize a memoria local se houver.
 NAO depender da memoria do usuario para lembrar disso — e responsabilidade da IA fazer ao concluir.
 Isso mantem o contexto correto em QUALQUER dispositivo e evita retrabalho/andar em circulos.
+
+CONFIRMACAO OBRIGATORIA: no resumo final ao usuario, declarar EXPLICITAMENTE que o CLAUDE.md e a memoria
+foram atualizados (ou que nao havia nada relevante a atualizar). Se a IA esquecer essa confirmacao, o usuario cobra.
